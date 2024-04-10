@@ -1,0 +1,141 @@
+
+///////////////////Exercise 1//////////////
+
+
+
+
+"""Q1> Write a Python program which accept the radius of a circle from the user and compute the area."""
+
+# r = float(input("Enter radius of the circle:"))
+
+# Area = (22/7)*r*r
+ 
+# print("Area of circle is :",Area)
+
+
+"""Q2: Temperature of a city in Fahrenheit degrees is input through the keyboard. 
+Write a program to convert this temperature into Centigrade degrees."""
+
+# temp = int(input("Enter temperature in Fahrenheit:"))
+# convert = (temp - 32) * (5/9) 
+
+# print(temp,"°F =",convert,"°C")
+
+
+"""Write a Python Program to make a simple calculator that can add, subtract, multiply and
+divide
+"""
+
+# operation = input('''
+# Please type in the math operation you would like to complete:
+# + for addition
+# - for subtraction
+# * for multiplication
+# / for division
+# ''')
+
+# numb1 = int(input('Enter your first number: '))
+# numb2 = int(input('Enter your second number: '))
+
+# if operation == '+':
+#     print("{0} + {1} = ".format(numb1, numb2),numb1+numb2)
+    
+
+# elif operation == '-':
+#     print("{0} - {1} = ".format(numb1, numb2),numb1+numb2)
+    
+
+# elif operation == '*':
+#     print("{0} * {1} = ".format(numb1, numb2),numb1+numb2)
+    
+
+# elif operation == '/':
+#     print("{0} / {1} = ".format(numb1, numb2),numb1+numb2)
+    
+
+# else:
+#     print("Please type a valid operation")
+
+"""Q4: Write a Python Program to calculate the square root
+"""
+# import math
+
+# a = float(input("Enter a number : "))
+
+# Square_root = math.sqrt(a)
+# print("Square Root of ",a,"is ;", Square_root)
+
+"""Q5: Write a Python Program to Solve the quadratic equation ax**2 + bx + c = 0
+# Coeffients a, b and c are provided by the user
+[Hint: import complex math module - import cmath]
+"""
+# import cmath
+# a = int(input("Enter First value:"))
+# b = int(input("Enter Second value:"))
+# c = int(input("Enter Third value:"))
+
+# print("equation:",a,"x**2 +",b,"x +",c,"= 0")
+
+# d = (b**2) - (4*a*c)
+
+# sol1 = (-b-cmath.sqrt(d))/(2*a)
+# sol2 = (-b+cmath.sqrt(d))/(2*a)
+
+# print('The solution are {0} and {1}'.format(sol1,sol2))
+
+
+
+
+"""Q6: Write a Python Program to find the area of triangle
+# Three sides of the triangle a, b and c are provided by the user"""
+
+# base = float(input("Enter base of triangle:"))
+# height = float(input("Enter height of triangle:"))
+
+# Area = 0.5*base*height
+
+# print("Aerea of triangle:", Area)
+
+
+
+"""Q7: Write a Python program to print the following string in a specific format
+    Twinkle , Twinkle, little star,
+              How i wonder what you are!
+                    up above the world so high,
+                    Like a diamond in the sky,
+    Twinkle , Twinkle little star,
+              How i wonder what you are!
+     """
+
+
+# sTring = "Twinkle , Twinkle, little star,\n\
+#               How i wonder what you are!\n\
+#                     up above the world so high,\n\
+#                     Like a diamond in the sky,\n\
+#     Twinkle , Twinkle little star,\n\
+#               How i wonder what you are!"
+# print(sTring)
+
+
+
+"""Q8: Write a Python program to display your details like name, age, address in three different
+lines."""
+
+# Name = str(input("Enter Your Name:"))
+# age = int(input("Enter Your age:"))
+# Address = str(input("Enter Your Address:"))
+
+# print("Name:",Name,"\nAge:",age,"\nAddress:",Address)
+
+
+
+"""Q9: If a five-digit number is input through the keyboard, write a program to calculate the sum
+of its digits without using any loop. (Hint: Use the modulus operator ‘%’)"""
+
+
+# def sum(no):
+#     return 0 if no == 0 else int(no % 10) + sum(int(no / 10)) 
+
+# n = int(input("Enter your five digit number:"))
+# print(sum(n))
+
