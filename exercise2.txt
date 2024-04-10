@@ -1,0 +1,78 @@
+
+///////////////////Exercise 2//////////////
+
+
+
+"""1.Create a string containing both a single quote and double quote"""
+
+# a = "Hello World"
+# b = 'Hello world'
+# print(a,b)
+
+
+"""2.Create a triple quoted string that contains single and double quotes."""
+
+# a = """'Hello World'
+#           "Hello world" """
+# print(a)
+
+"""3.Create a character, then obtain its integer representation."""
+
+# a = "A"
+# print(ord(a))
+
+
+
+"""4.Create a single string containing 5 copies of the string &#39;abc&#39;."""
+
+# a = "&#39;abc&#39\n"
+# print(a*5)
+
+
+"""5.Use the multiplication operator to create a "line" of 50 dashes."""
+
+# a = "-"
+# print(a*50)
+
+
+"""6.Convert a string to all upper case."""
+
+# a = "hello world"
+# print(a.upper())
+
+
+
+"""Q7 : Write a Python program to get a string made of the first 2 and the last 2 chars from
+a given a string."""
+
+# a = "hello WOrld"
+# b = a[:2]
+# c = a[-2:]
+# print(b+c)
+
+
+
+"""Q8: a Python program to get a string from a given string where all occurrences of its first
+char have been changed to "$", except the first char itself.
+Sample String : ;restart;
+Expected Result : ;resta$t"""
+
+# a="hello world"
+# ch = a[2]
+# a = a.replace(ch, '$')
+# a = a[:2] + ch + a[3:]
+# print(a)
+
+
+
+"""Q9: Write a Python program to get a single string from two given strings, separated by a
+space and swap the first two characters of each string.
+Sample String : abc, xyz 
+Expected Result : xyc abz"""
+
+
+# a="hello world"
+
+# a = a[6:8] + a[2:5] + " " + a[0:2] +  a[8:] 
+# print(a)
+
